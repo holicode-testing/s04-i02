@@ -56,6 +56,14 @@
 - **Pattern**: Prioritized user experience by making summaries immediately accessible and readable, reinforcing the value of the summarization feature.
 - **Prevention**: For UI-focused stories, ensure ACs explicitly cover presentation, readability, and user flow (e.g., immediate display vs. requiring additional clicks).
 
+## Technical Design Workflow Learnings:
+- **Date**: 2025-08-17
+- **Issue**: Establishing the architectural foundation for the "AI-driven Content Summarization" feature.
+- **Root Cause**: N/A, standard workflow execution.
+- **Resolution**: Successfully generated all standard Technical Design documents (TD-001 to TD-007), covering System Architecture, Infrastructure, Technology Stack, Integration, Security, Performance, and Observability.
+- **Pattern**: Followed the `technical-design.md` workflow, starting with architectural quality attribute prioritization and pattern selection (Modular Monolith) before detailing specific domains. This proactive approach ensures a solid foundation. The user's feedback emphasized prioritizing local development first before GCP deployment, which was incorporated into `TD-002`. This confirms the importance of continuous user feedback to refine architectural decisions.
+- **Prevention**: Ensure that the `technical-design.md` workflow explicitly guides the agent to ask about initial deployment focus (local vs. cloud) early in the process to align with user priorities.
+
 ## General Structure:
 This file will serve as a log for:
 - Learnings from development iterations.
