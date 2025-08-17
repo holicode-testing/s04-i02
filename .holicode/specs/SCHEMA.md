@@ -5,12 +5,40 @@
 **Size Limit:** <2KB  
 **Required Sections:**
 - `# Work Specification: [Name]`
+- `## Epics` (bullet list with links - only if epics exist)
 - `## Features` (bullet list with links)
 - `## Active Stories` (bullet list with links)  
 - `## Current Tasks` (bullet list with links)
 - `## Implementation Status` (component references)
 
 **Link Pattern:** `[ITEM-id](relative/path.md) - Description`
+
+## Specification Hierarchy
+**Standard Flow:** Feature → Story → Task → Component SPEC
+**Platform Flow:** Epic → Feature → Story → Task → Component SPEC
+
+**Notes:**
+- Epics are optional but reasonably advised, used for platform-level initiatives with multiple features
+- Features can exist standalone OR under an Epic
+- The WORK_SPEC.md manifest provides single discovery for all levels
+
+## Epic Chunks
+**Filename Pattern:** `epics/EPIC-{id}.md`  
+**Size Limit:** <1.5KB  
+**Required Fields:**
+- `**Type:**` Epic
+- `**Status:**` [planning|active|complete]
+- `**Created:**` ISO date
+- `**Business Owner:**` Team/person
+- `## Strategic Overview` (paragraph describing platform/initiative)
+- `## Component Features` (bullet list linking to feature chunks)
+- `## Cross-Cutting Concerns` (integration points, shared infrastructure)
+- `## Success Metrics` (epic-level aggregate metrics)
+- `## Timeline` (high-level milestones)
+
+**Validation Rules:**
+- Must contain at least 2 component features for epic designation
+- Each feature must explicitly reference parent epic
 
 ## Feature Chunks
 **Filename Pattern:** `features/FEATURE-{id}.md`  
@@ -19,6 +47,7 @@
 - `**Status:**` [draft|active|complete]
 - `**Created:**` ISO date
 - `**Business Owner:**` Team/person
+- `**Parent Epic:**` [link] (optional - only if part of an epic)
 - `## Business Value` (paragraph)
 - `## Success Metrics` (bulleted list with measurements)
 - `## Scope & Constraints` (In/Out of scope)

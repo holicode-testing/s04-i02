@@ -8,8 +8,25 @@
 ## Project Overview
 AI-assisted development framework with specification-driven workflows and chunked architecture for optimal context management.
 
+## Epics
+- [ ] EPIC-CM-001: Content Management & Curation (.holicode/specs/epics/EPIC-CM-001.md)
+- [ ] EPIC-AI-002: AI-Powered Learning & Feedback (.holicode/specs/epics/EPIC-AI-002.md)
+- [ ] EPIC-PA-003: Personalization & Adaptive Learning Paths (.holicode/specs/epics/EPIC-PA-003.md)
+- [ ] EPIC-EA-004: Engagement & Analytics (.holicode/specs/epics/EPIC-EA-004.md)
+
 ## Features
-<!-- Feature chunks (<1KB each) - Single Discovery Entry Point -->
+- [ ] P0 - FEATURE-CM-INGESTION-001: Content Ingestion Pipeline (.holicode/specs/features/FEATURE-CM-INGESTION-001.md) - (Can be mocked/minimal for walking skeleton: simple file upload/storage.)
+- [ ] P2 - FEATURE-CM-CURATION-002: Content Curation & Metadata Management (.holicode/specs/features/FEATURE-CM-CURATION-002.md) - (Can be mocked/manual initially.)
+- [ ] P1 - FEATURE-CM-DELIVERY-003: Content Delivery & Search (.holicode/specs/features/FEATURE-CM-DELIVERY-003.md) - (Basic display of summary needed for walking skeleton, advanced search can be mocked.)
+- [ ] P0 - FEATURE-AI-SUMMARIZATION-001: AI-driven Content Summarization (.holicode/specs/features/FEATURE-AI-SUMMARIZATION-001.md) - **STEEL THREAD: Implement first for maximum learning.**
+- [ ] P2 - FEATURE-AI-QUIZGEN-002: Personalized Quiz & Exercise Generation (.holicode/specs/features/FEATURE-AI-QUIZGEN-002.md) - (Can be mocked/omitted.)
+- [ ] P2 - FEATURE-AI-FEEDBACK-003: Real-time Constructive Feedback (.holicode/specs/features/FEATURE-AI-FEEDBACK-003.md) - (Can be mocked/omitted.)
+- [ ] P2 - FEATURE-PA-PATHGEN-001: Adaptive Learning Path Generation (.holicode/specs/features/FEATURE-PA-PATHGEN-001.md) - (Can be mocked/omitted.)
+- [ ] P2 - FEATURE-PA-RECOMMEND-002: Personalized Content Recommendation Engine (.holicode/specs/features/FEATURE-PA-RECOMMEND-002.md) - (Can be mocked/omitted.)
+- [ ] P2 - FEATURE-PA-PROFILE-003: User Learning Profile Management (.holicode/specs/features/FEATURE-PA-PROFILE-003.md) - (Can be mocked/omitted; no user login needed for walking skeleton.)
+- [ ] P0 - FEATURE-EA-UI-001: Intuitive User Interface & Interaction (.holicode/specs/features/FEATURE-EA-UI-001.md) - (Minimal UI for file upload and summary display needed.)
+- [ ] P2 - FEATURE-EA-TRACKING-002: Progress Tracking & Reporting (.holicode/specs/features/FEATURE-EA-TRACKING-002.md) - (Can be mocked/omitted.)
+- [ ] P2 - FEATURE-EA-ANALYTICS-003: Platform Usage & Performance Analytics (.holicode/specs/features/FEATURE-EA-ANALYTICS-003.md) - (Can be mocked/omitted.)
 
 ## Active Stories  
 <!-- Story chunks (<1KB each) linked to parent features -->
@@ -36,10 +53,11 @@ AI-assisted development framework with specification-driven workflows and chunke
 ## Hierarchy Map
 <!-- Visual representation of chunk relationships for quick navigation -->
 ```
-├── FEATURE-[id] (Business Value)
-│   ├── STORY-[id] (User Requirements)  
-│   │   └── TASK-[id] (Implementation Work)
-│   │       └── Component SPECs (Live Implementation Specs)
+├── EPIC-[id] (Platform Initiative)
+│   ├── FEATURE-[id] (Business Value)
+│   │   ├── STORY-[id] (User Requirements)  
+│   │   │   └── TASK-[id] (Implementation Work)
+│   │   │       └── Component SPECS (Live Implementation Specs)
 └── Technical Design (TD-XXX)
     └── Architectural Tasks (Implementation Work)
 ```
