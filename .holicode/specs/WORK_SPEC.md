@@ -29,6 +29,9 @@ AI-assisted development framework with specification-driven workflows and chunke
 - [ ] P2 - FEATURE-EA-ANALYTICS-003: Platform Usage & Performance Analytics (.holicode/specs/features/FEATURE-EA-ANALYTICS-003.md) - (Can be mocked/omitted.)
 
 ## Active Stories  
+- [ ] STORY-AI-SUMMARIZATION-001: Basic Content Summarization (.holicode/specs/stories/STORY-AI-SUMMARIZATION-001.md)
+- [ ] STORY-AI-SUMMARIZATION-002: Summarization with Length Preference (.holicode/specs/stories/STORY-AI-SUMMARIZATION-002.md)
+- [ ] STORY-AI-SUMMARIZATION-003: Viewing Summaries (.holicode/specs/stories/STORY-AI-SUMMARIZATION-003.md)
 <!-- Story chunks (<1KB each) linked to parent features -->
 
 ## Current Tasks
