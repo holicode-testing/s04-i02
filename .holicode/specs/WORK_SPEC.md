@@ -43,7 +43,13 @@ AI-assisted development framework with specification-driven workflows and chunke
 <!-- Track which TDs have been converted to tasks to prevent duplicates -->
 
 ### Unprocessed TDs
-<!-- TDs waiting for task generation -->
+- [ ] TD-001: System Architecture Overview (.holicode/specs/technical-design/TD-001.md)
+- [ ] TD-002: Infrastructure & Deployment Architecture (.holicode/specs/technical-design/TD-002.md)
+- [ ] TD-003: Technology Stack Decisions (.holicode/specs/technical-design/TD-003.md)
+- [ ] TD-004: Integration & API Architecture (.holicode/specs/technical-design/TD-004.md)
+- [ ] TD-005: Security & Compliance Architecture (.holicode/specs/technical-design/TD-005.md)
+- [ ] TD-006: Performance & Scalability Architecture (.holicode/specs/technical-design/TD-006.md)
+- [ ] TD-007: Observability & Operations Architecture (.holicode/specs/technical-design/TD-007.md)
 
 ## Implementation Status
 <!-- Component references as they are implemented -->
