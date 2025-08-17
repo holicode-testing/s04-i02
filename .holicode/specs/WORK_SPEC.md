@@ -35,7 +35,21 @@ AI-assisted development framework with specification-driven workflows and chunke
 <!-- Story chunks (<1KB each) linked to parent features -->
 
 ## Current Tasks
-<!-- Task chunks (<1KB each) with dependency tracking -->
+- [ ] TASK-001: Setup Nx Monorepo with TypeScript and Initial Applications (.holicode/specs/tasks/TASK-001.md)
+- [ ] TASK-002: Configure Code Quality Tools (ESLint, Prettier) in Monorepo (.holicode/specs/tasks/TASK-002.md)
+- [ ] TASK-003: Dockerize Monorepo Applications for Local Development (.holicode/specs/tasks/TASK-003.md)
+- [ ] TASK-004: Implement Basic RESTful API Structure in `api` application (.holicode/specs/tasks/TASK-004.md)
+- [ ] TASK-005: Integrate LLM Client Module in `api` application (.holicode/specs/tasks/TASK-005.md)
+- [ ] TASK-006: Implement Basic API Key Authentication for `api` endpoint (.holicode/specs/tasks/TASK-006.md)
+- [ ] TASK-007: Setup Testing Framework (Jest/Vitest) in Monorepo (.holicode/specs/tasks/TASK-007.md)
+- [ ] TASK-008: Implement Structured Logging in `api` application (.holicode/specs/tasks/TASK-008.md)
+- [ ] TASK-F-001: Implement Summarization Endpoint in `api` application (.holicode/specs/tasks/TASK-F-001.md)
+- [ ] TASK-F-002: Implement Content Length Validation in `api` application (.holicode/specs/tasks/TASK-F-002.md)
+- [ ] TASK-F-003: Create Basic Summarization UI in `web` application (.holicode/specs/tasks/TASK-F-003.md)
+- [ ] TASK-F-004: Enhance Summarization Endpoint with Length and Format Options (.holicode/specs/tasks/TASK-F-004.md)
+- [ ] TASK-F-005: Implement Unfeasible Request Handling in `api` application (.holicode/specs/tasks/TASK-F-005.md)
+- [ ] TASK-F-006: Enhance Summarization UI with Length and Format Options (.holicode/specs/tasks/TASK-F-006.md)
+- [ ] TASK-F-007: Display Summary with Original Content Association in UI (.holicode/specs/tasks/TASK-F-007.md)
 
 ## Technical Design Documents
 <!-- Links to TD documents processed by implementation-plan workflow -->
