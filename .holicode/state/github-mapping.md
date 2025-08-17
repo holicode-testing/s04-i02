@@ -4,7 +4,7 @@
 This document maps internal HoliCode entities (features, stories, tasks, components) to their corresponding GitHub issues, pull requests, and other relevant GitHub resources. It serves as a central reference for tracking work in GitHub and synchronizing state.
 
 ## Configuration:
-- **GitHub Repository URL**: (To be filled upon project initialization with a GitHub remote)
+- **GitHub Repository URL**: https://github.com/holicode-testing/s04-i02
 - **Default Branch**: `main` (or `master`, depending on repository setup)
 - **Issue Labels**:
     - `epic`: For large initiatives/epics.
