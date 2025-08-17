@@ -32,6 +32,30 @@
 - **Pattern**: Adopted the "Walking Skeleton" approach, focusing on the shortest end-to-end path through the system that demonstrates core functionality. This is crucial for early validation and risk reduction.
 - **Prevention**: The `business-analyze.md` workflow should be updated to include a prioritization step, potentially as part of the "Feature/Epic decision" phase, to explicitly define the "steel thread" and initial delivery increments.
 
+## Story Decomposition Learnings:
+- **Date**: 2025-08-17
+- **Issue**: Decomposing the "AI-driven Content Summarization" feature into user stories.
+- **Root Cause**: Decision point on story granularity (single comprehensive vs. multiple focused stories).
+- **Resolution**: User opted for "3 focused stories" to allow for incremental delivery and clearer testing boundaries, starting with `STORY-AI-SUMMARIZATION-001: Basic Content Summarization`.
+- **Pattern**: Engaged the user to decide on story granularity, aligning with the principle of iterative refinement and user-guided development. This ensures stories are sized appropriately for the team's preferred development and testing methodology.
+- **Prevention**: Incorporate a story granularity decision point directly into the functional analysis workflow for features with multiple distinct user flows.
+
+## Story: Summarization with Length Preference Learnings:
+- **Date**: 2025-08-17
+- **Issue**: Defining acceptance criteria for user-controlled summary length and format.
+- **Root Cause**: Ensuring the system intelligently handles unfeasible requests and communicates effectively with the user.
+- **Resolution**: Defined ACs to cover user choice, adherence to preferences, and graceful handling of unfeasible requests with clear user feedback.
+- **Pattern**: Emphasized transparent communication with the user when AI capabilities have limitations, ensuring a positive user experience even when requests cannot be perfectly met.
+- **Prevention**: For future features involving user preferences with AI, prioritize defining clear error handling and user feedback mechanisms early in the specification phase.
+
+## Story: Viewing Summaries Learnings:
+- **Date**: 2025-08-17
+- **Issue**: Defining acceptance criteria for displaying and associating generated summaries.
+- **Root Cause**: Ensuring the summary is immediately visible, readable, and clearly linked to its source.
+- **Resolution**: Defined ACs to cover immediate display, clear presentation, and minimal association with original content.
+- **Pattern**: Prioritized user experience by making summaries immediately accessible and readable, reinforcing the value of the summarization feature.
+- **Prevention**: For UI-focused stories, ensure ACs explicitly cover presentation, readability, and user flow (e.g., immediate display vs. requiring additional clicks).
+
 ## General Structure:
 This file will serve as a log for:
 - Learnings from development iterations.
