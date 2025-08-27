@@ -17,6 +17,7 @@ export default [
       '**/vite.config.*.timestamp*',
       '**/vitest.config.*.timestamp*',
       '**/test-output',
+      '.holicode/**',
     ],
   },
   {
@@ -52,6 +53,7 @@ export default [
     rules: {
       ...prettierPlugin.configs.recommended.rules,
       'prettier/prettier': 'error',
+      quotes: ['error', 'single'], // Explicitly enforce single quotes
     },
   },
   prettierConfig,
