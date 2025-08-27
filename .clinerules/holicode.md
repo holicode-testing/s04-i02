@@ -83,7 +83,7 @@ Workflows must reference these defaults only when techContext/specs opt in. All 
 - `docs/ARCHITECTURE.md` - High-level system design
 - `docs/API.md` - API documentation  
 - `docs/RESOURCES.md` - Centralized resource map for quick navigation
-- `docs/patterns/` - Implementation patterns and troubleshooting guides
+- `.holicode/patterns/` - Implementation patterns and troubleshooting guides
 - `docs/decisions/` - Architecture Decision Records (ADRs)
 - Always committed to Git
 
@@ -532,12 +532,12 @@ As I work on the project, I should document in `.clinerules`:
 When encountering common problems, consult the pattern library first:
 
 ### Available Patterns
-- **Testing Issues (TypeScript/Node.js)**: See `docs/patterns/ts-node-testing-cookbook.md`
-- **TypeScript Problems**: See `docs/patterns/ts-node-typescript-patterns.md`
-- **Docker Challenges (TypeScript/Node.js)**: See `docs/patterns/ts-node-docker-patterns.md`
-- **Configuration (TypeScript/Node.js)**: See `docs/patterns/ts-node-configuration-patterns.md`
-- **Security Requirements**: See `docs/patterns/security-checklist.md`
-- **Reliability Needs**: See `docs/patterns/reliability-patterns.md`
+- **Testing Issues (TypeScript/Node.js)**: See `.holicode/patterns/ts-node-testing-cookbook.md`
+- **TypeScript Problems**: See `.holicode/patterns/ts-node-typescript-patterns.md`
+- **Docker Challenges (TypeScript/Node.js)**: See `.holicode/patterns/ts-node-docker-patterns.md`
+- **Configuration (TypeScript/Node.js)**: See `.holicode/patterns/ts-node-configuration-patterns.md`
+- **Security Requirements**: See `.holicode/patterns/security-checklist.md`
+- **Reliability Needs**: See `.holicode/patterns/reliability-patterns.md`
 
 ### Pattern Application Protocol
 1. Check if problem matches known pattern

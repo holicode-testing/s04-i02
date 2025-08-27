@@ -61,7 +61,7 @@ Provide systematic self-critic review after technical design phase to ensure:
 ### 3. Security Review
 ```markdown
 ## Security Assessment
-Using patterns from `docs/patterns/security-checklist.md`:
+Using patterns from `.holicode/patterns/security-checklist.md`:
 
 ### Authentication & Authorization
 - [ ] Authentication method specified
@@ -97,7 +97,7 @@ For each identified risk:
 ### 4. Reliability Assessment
 ```markdown
 ## Reliability Review
-Using patterns from `docs/patterns/reliability-patterns.md`:
+Using patterns from `.holicode/patterns/reliability-patterns.md`:
 
 ### Availability
 - [ ] Target SLA defined

@@ -16,7 +16,7 @@ Success Criteria: Answer investigation question within time box
 Read the SPIKE task from `.holicode/specs/tasks/SPIKE-{id}.md`
 
 ### 2. Research Phase
-- Review existing patterns in `docs/patterns/`
+- Review existing patterns in `.holicode/patterns/`
 - Search relevant documentation
 - Analyze similar implementations
 - Research external resources
@@ -41,7 +41,7 @@ Update the SPIKE task with:
 
 ### 6. Pattern Extraction
 If new patterns discovered:
-- Document in relevant `docs/patterns/` file
+- Document in relevant `.holicode/patterns/` file
 - Update retro-inbox.md with learning
 
 ## DoD
@@ -67,12 +67,12 @@ time_management:
 
 ### Pattern Matching
 Check if the problem matches any existing patterns:
-- Testing issues → `docs/patterns/testing-cookbook.md`
-- TypeScript problems → `docs/patterns/typescript-patterns.md`
-- Docker challenges → `docs/patterns/docker-patterns.md`
-- Configuration issues → `docs/patterns/configuration-patterns.md`
-- Security concerns → `docs/patterns/security-checklist.md`
-- Reliability needs → `docs/patterns/reliability-patterns.md`
+- Testing issues → `.holicode/patterns/testing-cookbook.md`
+- TypeScript problems → `.holicode/patterns/typescript-patterns.md`
+- Docker challenges → `.holicode/patterns/docker-patterns.md`
+- Configuration issues → `.holicode/patterns/configuration-patterns.md`
+- Security concerns → `.holicode/patterns/security-checklist.md`
+- Reliability needs → `.holicode/patterns/reliability-patterns.md`
 
 ### Minimal PoC Creation
 When creating a PoC:

@@ -412,7 +412,7 @@ Does the primary pattern align with your vision?</question>
    - Fill only: API Contract, Data Model, Dependencies sections
    - Focus on architectural contracts, not functional details
 
-7) **Service Architecture Guidance**: When designing service components, consider the Logic → Router → SPEC → Integrate layering pattern. See [docs/patterns/service-implementation.md](../docs/patterns/service-implementation.md) for architectural planning guidance.
+7) **Service Architecture Guidance**: When designing service components, consider the Logic → Router → SPEC → Integrate layering pattern. See [.holicode/patterns/service-implementation.md](.holicode/patterns/service-implementation.md) for architectural planning guidance.
 8) Update `WORK_SPEC.md` manifest with links to all TD documents
 
 8.5) **Security & Reliability Review Gate**:
@@ -492,7 +492,7 @@ Document your approach to external dependencies:
 - **Progressive Integration**: Start with mocks, replace with real services incrementally
 - **Mock Patterns**: In-memory, file-based, or network stub servers
 
-**Implementation Guidance**: See [docs/patterns/mock-first-development.md](../docs/patterns/mock-first-development.md) for detailed patterns and examples.
+**Implementation Guidance**: See [.holicode/patterns/mock-first-development.md](.holicode/patterns/mock-first-development.md) for detailed patterns and examples.
 
 ### Shared Models Architecture
 Decide on model sharing strategy:

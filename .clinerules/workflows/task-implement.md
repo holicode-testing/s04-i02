@@ -348,7 +348,7 @@ If blockers exist:
    - Ensure code matches functional specifications
    - Implementation MUST conform to SPEC.md contracts
 
-**Implementation Guidance**: Follow the Logic → Router → SPEC → Integrate pattern. See [docs/patterns/service-implementation.md](../docs/patterns/service-implementation.md) for systematic implementation approach.
+**Implementation Guidance**: Follow the Logic → Router → SPEC → Integrate pattern. See [.holicode/patterns/service-implementation.md](.holicode/patterns/service-implementation.md) for systematic implementation approach.
 
 4. **Update Component SPECs (Change Logs Only)**
    ```markdown
@@ -435,7 +435,7 @@ Before marking any implementation complete, execute this verification checklist:
      - System-level configurations
      - Cross-component interactions and dependencies
      - Infrastructure and tooling issues
-   - **Containerization Issues**: Refer to [`docs/patterns/docker-containerization.md`](../docs/patterns/docker-containerization.md) for systematic troubleshooting
+   - **Containerization Issues**: Refer to [`.holicode/patterns/docker-containerization.md`](.holicode/patterns/docker-containerization.md) for systematic troubleshooting
    - **Debugging Strategy**: Shift from micro-iterations to higher level structured problem analysis
    - **Root Cause Analysis**: Look beyond immediate implementation to environmental and systemic factors
    - **Dedicated Investigation Task**: consider raising a need for dedicated task to debug/investigate and run down the problem and only then get back unless any major decisions to shift the approach
@@ -458,7 +458,7 @@ Before marking any implementation complete, execute this verification checklist:
    If the task includes performance criteria, prefer running the project-defined performance profile command (opt-in) instead of the default test suite to avoid CI flakiness. Examples (advisory, tech-agnostic):
    Use only when explicitly specified by TASK/SPECs or techContext; keep perf runs out of default CI.
 
-**Verification Guidance**: See [docs/patterns/verification-tools.md](../docs/patterns/verification-tools.md) for comprehensive verification strategies and tool selection matrix.
+**Verification Guidance**: See [.holicode/patterns/verification-tools.md](.holicode/patterns/verification-tools.md) for comprehensive verification strategies and tool selection matrix.
 
 ### 6. Commit Implementation Changes
 
