@@ -1,0 +1,36 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./apps/api/Dockerfile
+    ports:
+      - '3466:3000'
+    # volumes:
+    #   - ./apps:/app/apps # Mount apps directory for hot-reloading
+    #   - ./libs:/app/libs # Mount libs directory for hot-reloading
+    #   # node_modules and root config files are now part of the image, not mounted
+    env_file:
+      - .env.api
+    networks:
+      - app-network
+    command: pnpm nx serve api
+
+  web:
+    build:
+      context: .
+      dockerfile: ./apps/web/Dockerfile
+    ports:
+      - '5466:5173'
+    # volumes:
+    #   - ./apps:/app/apps
+    #   - ./libs:/app/libs
+    #   # node_modules and root config files are now part of the image, not mounted
+    env_file:
+      - .env.web
+    networks:
+      - app-network
+    command: pnpm nx serve web
+
+networks:
+  app-network:
+    driver: bridge

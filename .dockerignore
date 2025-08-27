@@ -1,0 +1,23 @@
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Node.js modules and pnpm store
+node_modules/
+.pnpm-store/
+.pnpm-store
+
+# Ignore build artifacts and temporary files
+dist/
+build/
+tmp/
+coverage/
+*.log
+*.tsbuildinfo
+.nx/
+.vscode/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
