@@ -5,11 +5,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(() => ({
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/web',
-  server:{
+  server: {
     port: 4270,
     host: 'localhost',
   },
-  preview:{
+  preview: {
     port: 4270,
     host: 'localhost',
   },
